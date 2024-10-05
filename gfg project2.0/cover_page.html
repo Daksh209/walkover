@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WALKOVER</title>
+  <link rel="icon" href="logo.jpg" type="image/jpg">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url('background_image.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      font-family: 'Roboto', cursive;
+    }
+
+    .container {
+      text-align: center;
+      padding: 20px 50px;
+      background-color: rgba(240, 240, 240, 0.8);
+      border-radius: 15px;
+      width: 1000px;
+      max-width: 90%;
+    }
+
+    .logo img {
+      width: 300px;
+      height: auto;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      color: black;
+      font-size: 70px;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      padding: 15px 30px;
+      font-size: 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="logo2.jpg" alt="Walkover Logo">
+    </div>
+    <h1>WALKOVER</h1>
+    <button class="btn" onclick="redirectTofirstpage()">Get Started</button>
+
+    <script>
+      function redirectTofirstpage() {
+        window.location.href = 'first_page.html';
+      }
+    </script>
+  </div>
+</body>
+
+</html>

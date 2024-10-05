@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WALKOVER</title>
+  <link rel="stylesheet" href="Css_page.css">
+  <link rel="icon" href="logo.jpg" type="image/jpg">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Feelings Survey</h1>
+    <p>How are you feeling today? Select all that apply:</p>
+    <form id="feelingForm">
+      <div class="feelings">
+        <label><input type="checkbox" name="feeling" value="feeling tired and low energy">Feeling tired and low
+          energy</label>
+        <label><input type="checkbox" name="feeling" value="feeling sad and tearful">Feeling Sad and Tearful</label>
+        <label><input type="checkbox" name="feeling" value="experiencing anxiety or racing thoughts">Experiencing
+          anxiety or racing thoughts</label>
+        <label><input type="checkbox" name="feeling" value="feeling overwhelmed or stressed">Feeling Overwhelmed or
+          stressed</label>
+        <label><input type="checkbox" name="feeling" value="lack of motivation">Lack of Motivation</label>
+        <label><input type="checkbox" name="feeling" value="irritability or anger">Irritability or Anger</label>
+        <label><input type="checkbox" name="feeling" value="trouble focusing or concentrating">Trouble Focusing or
+          Concentrating</label>
+        <label><input type="checkbox" name="feeling" value="feeling lonely or isolated">Feeling lonely or
+          isolated</label>
+        <label><input type="checkbox" name="feeling" value="feeling frustated or helpless">Feeling frustated or
+          helpless</label>
+        <label><input type="checkbox" name="feeling" value="difficulty sleeping">Difficulty sleeping (insomnia or
+          restless sleep)</label>
+        <label><input type="checkbox" name="feeling" value="feeling stuck or indecisive">Feeling stuck or
+          indecisive</label>
+        <label><input type="checkbox" name="feeling" value="physical tension or tightness">Physical Tension or Tightness
+          (e.g. shoulder/neck)</label>
+        <label><input type="checkbox" name="feeling" value="feeling empty or numb">Feeling empty or numb</label>
+        <label><input type="checkbox" name="feeling" value="loss of interest in activities">Loss of interest in
+          activities</label>
+        <label><input type="checkbox" name="feeling" value="feeling self-critical or low self-esteem">Feeling
+          self-critical or low self-esteem</label>
+        <label><input type="checkbox" name="feeling" value="feeling insecure or jealous">Feeling insecure or
+          jealous</label>
+        <label><input type="checkbox" name="feeling" value="overthinking a situation or conversation">Overthinking a
+          situation or conversation</label>
+        <label><input type="checkbox" name="feeling" value="being afraid of failure or judgement">Being afraid of
+          failure or judgement</label>
+        <label><input type="checkbox" name="feeling" value="feeling out of control or panicky">Feeling out of control or
+          panicky</label>
+        <label><input type="checkbox" name="feeling" value="disconnection or zoning out">Disconnection or zoning
+          out</label>
+      </div>
+      <br>
+      <button type="button" onclick="submitFeelings()">Submit</button>
+    </form>
+    <div class="result" id="result"></div>
+  </div>
+
+  <script src="Javascript_page.js"></script>
+</body>
+
+</html>
